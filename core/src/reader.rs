@@ -816,4 +816,3 @@ impl RowGroupReader {
             .map_err(|e| io::Error::other(e.to_string()))
     }
 }
-
